@@ -1,0 +1,27 @@
+# ---- secrets ----
+.env
+
+# ---- environments / dependencies / caches ----
+.venv/
+__pycache__/
+mv/node_modules/
+mv/dist/
+.claude/
+
+# ---- song data: audio, stems, MIDI, lyrics, cover art, generated images (copyrighted / private) ----
+Projects/
+mv/songs/
+output/
+*.wav
+*.mp3
+*.m4a
+*.mp4
+
+# ---- large downloadable sources (fetched by the user; see mv/README.md) ----
+mv/fonts-src/
+
+# ---- private working notes ----
+HANDOFF.md
+会话记录_*.md
+tasks/
+docs/L4_*.md
